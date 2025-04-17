@@ -1,0 +1,25 @@
+/* Basic styling for the product details card  */
+.productstyle {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 8px;
+  margin-top: 40px;
+}
+
+/* Basic styling for the product details image card  */
+.productstyle Img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+/* Basic styling for the product List card  */
+.proudctscontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px;
+  margin-top: 50px;
+}
