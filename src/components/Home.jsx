@@ -1,5 +1,7 @@
 import { Carousel, Row, Col, Button } from "react-bootstrap";
 import styles from "./Home.module.css";
+
+import hero from "../assets/hero.jpg";
 import c1 from "../assets/carousel-1.jpg";
 import c2 from "../assets/carousel-2.jpg";
 import c3 from "../assets/carousel-3.jpg";
@@ -15,7 +17,12 @@ function Home() {
       <section className="mt-3 p-3 my-5">
         <Row>
           <Col className="mt-5 pt-3">
-            <div className={styles.heroimage}>
+            <div
+              className={styles.heroimage}
+              style={{
+                backgroundImage: `linear-gradient(rgba(226,213,213,0.4), rgba(230,219,219,0.4)), url(${hero})`,
+              }}
+            >
               <div className="container">
                 <div className="row justify-content-md-center">
                   <div className="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-dark">
