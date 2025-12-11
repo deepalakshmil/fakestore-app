@@ -61,4 +61,4 @@ npm run dev
 
 Then open the localhost URL from the terminal.
 
-Website Live Preview: fakestore-management-ui.netlify.app
+Website Live Preview: https://fakestore-management-ui.netlify.app
