@@ -1,6 +1,10 @@
 /* Basic styling for the hero image  */
 .heroimage {
-  background-image: linear-gradient(rgba(226, 213, 213, 0.397), rgba(230, 219, 219, 0.418)), url("./src/assets/hero.jpg");
+  background-image: linear-gradient(
+      rgba(226, 213, 213, 0.397),
+      rgba(230, 219, 219, 0.418)
+    ),
+    url("./src/assets/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

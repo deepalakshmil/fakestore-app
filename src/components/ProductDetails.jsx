@@ -83,6 +83,7 @@ function ProductDetails() {
                 {error && <Alert variant="danger" dismissible> {error} </Alert>}
                 {product && <Row>
                     <Col>
+
                         <Card className={styles.productstyle}>
                             <Card.Img variant="top" src={product.image} alt={product.title} />
                             <Card.Body className="text-center">
