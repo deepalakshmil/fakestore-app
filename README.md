@@ -25,7 +25,7 @@ Features
 - Clean component-based structure (AddProduct, ProductDetails, ProductList, etc.)
 
 - Error handling + NotFound page
-
+```
 📂 Project Structure
 src/
 ├── assets/
@@ -39,7 +39,7 @@ src/
 ├── App.jsx
 ├── index.css
 └── main.jsx
-
+```
 Follow the steps below to access the webpage.
 
 To run the webpage, first start the server and then open the site.
